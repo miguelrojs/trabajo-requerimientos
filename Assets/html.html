@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+  <h3>registro de asistencias</h3>
+    <br>barra superior con acceso rapido a su calendario personal<br>
+    <li>Interfaz para administradores</li>
+    <br>Objetivo: Crear, editar y monitorear horarios, además de gestionar solicitudes<br>
+    <br>elementos clave:<br>
+    <br>Menú lateral con opciones:<br>
+    <br>Crear horario: Herramienta para diseñar nuevos cronogramas.<br>
+    <br>Editar horario: Modificaciones y ajustes.<br>
+    <br>Solicitudes de instructores: Bandeja centralizada de peticiones.<br>
+    <br>Registro de usuarios:<br>
+    <br>Subida masiva (Excel).<br>
+    <br>registro manual estándar.<br>
+    <h1>2.1.2 Mapa de navegación</h1>
+    <h2 style="font: size 1px;"> flujo de navegación se puede organizar en tres niveles jerárquicos:</h2>
+    <h3>Nivel 1: Roles principales</h3>
+    <br>Aprendices.<br>
+    <br>Instructores.<br>
+    <br>Administradores.<br>
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  
+  </table>
+    <h3>Nivel 2: secciones dentro de cada rol</h3>
+    
+    <h3>cada rol tendra acceso a menús especificos<h3>
+    <br>Aprendices:Mis horarios,eventos,asistencias.<br>
+    <br>Instructores:Calendario,eventos del mes, cambio de horario,horario personalizado.<br>
+    <br>Administradores:Crear horario, editar horario, solicitudes,registro de usuarios.<br>
+    <h3>Nivel 3: Subfunciones y detalles</h3>
+    <br>Dentro de "Mis horarios" (aprendices), podrán acceder a opciones para:<br>
+    <br>Descargar horarios en pdf.<br>
+    <br>Visualizar clases por dia/semana/mes.<br>
+    <br>En "Solicitar cambio de horario" (instructores), habrá formularios con campos como fecha, hora y motivo, también se incluirá un apartado en caso de una transversal solicitar un ambiente.<br>
+    <h1>2.2.1 Funciones del producto</h1>
+    <h2>1.  visualizar horarios</h2>
+    <li>Mostrar de forma clara y concisa el horario asignado a cada aprendiz, incluyendo competencia, resultado de aprendizaje y cantidad de horas, fecha de inicio y fecha de finalización  </li>
+    <h2>Registro de asistencias:</h2>
+    <li>Permitir a los instructores registrar y revisar las asistencias de los aprendices de manera fácil e intuitiva</li> 
+    <h2>2.	Gestión etapa productiva</h2>
+    <h3>Para aprendices en etapa productiva:</h3>
+    <li>Subir bitácoras del proceso en etapa productiva</li>
+    <li>Generar formato de bitácora.</li>
+    <h3>Para instructores:</h3>
+    <li>Revisar y enviar bitácoras de aprendices</li>
+    <li>Generar formato de seguimiento (3)</li>
+  
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  </table>
+  
+  
+    <h3>Para administradores:</h3>
+    <li>Revisar bitácoras y poner estado de completado, si no es el caso se pondrá el estado de error </li>
+    <h3>Funciones adicionales:</h3>
+    <h3>Solicitud cambio de horario instructores:</h3>
+    los instructores podrán solicitar un cambio de horario enviándole la petición a el administrador el decidirá si lo aprueba o no. 
+    Enviar notificaciones a los usuarios sobre cambios en los horarios, fecha de entrega de bitácoras, y revisado de bitácoras 
+    <h3>2.2.2 Módulo de Gestión de Usuarios</h1>
+    <li>Creación, modificación y eliminación de usuarios (estudiantes, profesores, administradores).</li>
+    <li>Asignación de roles y permisos a cada usuario.</li>
+    <li>Gestión de contraseñas y autenticación.</li>
+    <h3>2.2.3 Módulo de catálogos:</h1>
+    <li>Gestión de catálogos de competencias, instructores, ambientes, horarios disponibles y otros datos</li>
+    <h3>2.2.4 Módulo de generación de horarios</h1>
+    <li>Algoritmos para generar horarios automáticamente, considerando restricciones como disponibilidad de ambientes, instructores y aprendices</li>
+  
+  
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  </table>
+  
+  
+    <h3>2.2.5 Módulo de consulta de horarios:</h1>
+    <li>Consulta de horarios por parte de aprendices, instructores y administradores.</li>
+    <li>Visualización de horarios en diferentes formatos(calendario,lista, etc.)</li>
+    <li>Posibilidad de exportar horarios a diferentes formatos (PDF, Excel, etc)</li>
+    <h3>2.2.6 Módulo de solicitud de cambios:</h1>
+    <li>Permitir a los estudiantes solicitar cambios en sus horarios.</li>
+    <li>Flujo de aprobación de solicitudes por parte de los administradores.</li>
+    <li>Notificación a los usuarios sobre el estado de sus solicitudes.</li>
+    <h3>2.2.7 Módulo de reportes:</h1>
+    <li>Generación de reportes personalizados sobre diversos aspectos de la gestión de horarios (ocupación de ambientes, carga aprendices, conflictos de horarios).</li>
+    <h1>2.3 Características del usuario</h1>
+    <h3>2.3.1 Tipo de Usuario Aprendiz</h3>
+    visualización de cronogramas:
+    <li>calendario académico: 
+    acceso completo al cronograma de competencias de la institución.</li>
+    <li>calendario de eventos del mes: 
+    listado de actividades especiales o cambios relevantes.</li>
+    <li>mis horarios: 
+    acceso a su horario semanal y mensual.</li>
+    <h3>Gestión de asistencias:</h3>
+    <li>consultar registros de asistencia</li>
+    <li>justificar faltas si es necesario</li>
+  
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  </table>
+  
+  
+    <h3>Etapa productiva</h3>
+    Disponible unicamente si el aprendiz está en esta fase
+    <li>subir bitácoras de su proceso productivo.</li>
+    <li>generar y descargar formatos de bitácora.</li>
+    Búsqueda rápida:herramienta para localizar clases,ambientes o eventos especificos
+    <h3>2.3.1 Tipo de Usuario instructor</h3>
+    visualización de cronogramas:
+    <Li>calendario académico:acceso a todo el cronograma de competencias de la institución.</Li>
+    <li>eventos del mes:listado detallado de actividades programadas o cambios importantes.</li>
+    Gestión de horarios:
+    <li>solicitar cambios de horario a través de un formulario dinámico.</li>
+    <Li>visualizar un horario personalizado ajustado a sus necesidades.</Li>
+    Registro y supervisión:
+    <li>registrar y revisar las asistencias de sus aprendices en competencias.</li>
+    <li>revisar y enviar bitácoras de aprendices en etapa productiva.</li>
+    <li>generar formatos de seguimiento para el proceso productivo.</li>
+    <h3>2.3.3	Tipo de Usuario Administrador2.3.3	Tipo de Usuario Administrador</h3>
+    gestión de usuarios:
+    <li>puede registrar, modificar y eliminar usuarios (aprendices e instructores)</li>
+    gestión de horarios:
+    <li>tiene la capacidad de crear,editar y visualizar cronogramas para el sena</li>
+  
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  </table>
+  
+  
+    gestión de solicitudes:
+    <li>puede permitir o rechazar solicitudes de instructores para cambios de horarios</li>
+    gestión de etapa productiva:
+    <li>revisar las bitácoras enviadas por los aprendices.</li>
+    <Li>cambiar el estado de las bitácoras a "completado" o "error" según corresponda.</Li>
+    Supervisión de asistencias:
+    <li>revisar y validar las asistencias registradas por los instructores.</li>
+    Creación de eventos:
+    <li>agregar actividades o ajustes al calendario institucional.</li>
+    <h1>Especificación de requisitos</h1>
+    <h3>3.1 Requisitos funcionales</h3>
+  
+    <table style="width: 100%;">
+      
+      <tr>
+        <tH>Funcionalidad</tH>
+        <th>Tipo (esencial,ideal,opcional)</th>
+      </tr>
+      <tr>
+        <td>RF01 - REGISTRO DE USUARIO</td>
+        <Td>esencial</Td>    
+      <tr>
+        <td>RF02 - INICIO DE SESION</td>
+        <Td>esencial</Td>  
+      </tr>
+        <td>RF03 - OLVIDO SU CONTRASEÑA</td>
+        <Td>esencial</Td>  
+      <tr>
+          <td>RF02 - INICIO DE SESION</td>
+          <Td>esencial</Td>  
+      </tr>
+      <tr>
+          <td>RF04- MODULO ADMINISTRADOR</td>
+          <Td>esencial</Td>  
+      </tr>
+      <tr>
+          <td>RF05 - MODULO INSTRUCTOR</td>
+          <Td>esencial</Td>  
+      </tr>
+  
+      <tr>
+        <td>RF06 - MODULO APRENDIZ</td>
+        <Td>esencial</Td>  
+      </tr>
+  
+      <tr>
+        <td>RF07 - MODULO REGISTRO DE USUARIOS</td>
+        <Td>esencial</Td>  
+      </tr>
+      <tr>
+      <td>RF08 - MODULO CREAR HORARIO</td>
+        <Td>esencial</Td>  
+      </tr>
+      <td>RF09 - MODULO EDITAR HORARIO</td>
+        <Td>esencial</Td> 
+      
+      <tr></tr>
+      <td>RF10 - SOLICITUDES DE INSTRUCTORES</td>
+        <Td>esencial</Td>  
+      </tr>
+      <tr></tr>
+      <td>RF11 - HISTORIAL DE CAMBIOS</td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF12 - CALENDARIO ACADEMICO</td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF13 - CALENDARIO EVENTOS DEL MES</td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF14 - SOLICITAR CAMBIO DE HORARIO</td>
+        <Td>esencial</Td>
+      </tr>
+      <tr>
+      <td>RF15 - HORARIO PERSONALIZADO </td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF16 - MIS HORARIOS</td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF17 - EVENTOS</td>
+        <Td>esencial</Td> 
+      </tr>
+      <tr>
+      <td>RF18 - ASISTENCIAS</td>
+        <Td>esencial</Td> 
+      </tr>  
+    </table>
+  
+  
+  
+  
+    <table style="width: 100%;" border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; margin-left: 0;"> 
+      <tr>
+          <td rowspan="4" style="padding:5px;">
+              <img src="imagenes\Imagen de WhatsApp 2025-02-17 a las 21.24.23_857afbd7.jpg" alt="Logo SENA" style="width: 100px;">
+          </td>
+          <th>Ficha</th>
+          <th>Proyecto</th>
+      </tr>
+      <tr>
+          <td>3063290</td>
+          <td>ChronoSync</td>
+      </tr>
+      <tr>
+          <th>Fecha</th>
+          <th>Versión</th>
+      </tr>
+      <tr>
+          <td style="text-align: center;">09/12/2024</td>
+          <td style="text-align: center;">1.2</td>
+      </tr>
+  </table>
+  
+  
+  
+    <h3>3.1.1 Clasificación de requisitos funcionales</h3>
+  
+    <table>
+<tr>
+  
+      <th>
+      IDENTIFICADOR:
+      <th> REQ-001 Módulo registro (Administrador)
+      </th>
+      <tr>
+      <th>
+      PRIORIDAD:
+      <th>Alta ☒	Medio ☐	Bajo ☐
+  
+      </th>
+      <tr>
+      <th> COMPLEJIDAD:
+      <th>	Alta ☐	Medio ☒	Bajo ☐
+      </th>
+      <tr>
+      <th>
+        ENTRADAS
+      </th>
+      <th style="text-align: left;">Debe permitir registrar un usuario con:
+      <li style="text-align: left;">Nombre</li>
+      <li style="text-align: left;">Apellido</li>
+      <li style="text-align: left;"> Numero de documento (cedula, tarjeta de identidad, pasaporte, cedula de extranjería, Permiso de protección temporal)</li>
+      <li style="text-align: left;"> Correo Electrónico </li>
+      <li style="text-align: left;"> Contraseña</li>
+      <li style="text-align: left;"> Número de teléfono </li>
+      <li style="text-align: left;">Tipo de usuario (APRENDIZ, INSTRUCTORES, ADMINISTRADOR)</li>
+      <li style="text-align: left;"> Numero de Ficha (Tipo de Formación a la que pertenece)</li>
+      <li> Cargue de datos (Se le permitirá registrar aprendices mediante una hoja de calcula Excel, esta opción la tendrá exclusivamente el administrador)</li>
+        </th>
+      
+    </tr>
+    </tr>
+    </tr>
+  
+      <th>Salidas
+      <th>Les permitirá a los usuarios acceder al sistema con el objetivo de hacer el registro con lo cual podrán acceder al módulo de inicio de sesión</th>
+      </th>
+     </tr>
+</body>
+</html>
+
+    

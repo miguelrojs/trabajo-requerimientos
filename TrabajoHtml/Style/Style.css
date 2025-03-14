@@ -1,0 +1,83 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+h1{
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    width: 100px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto 2rem;
+}
+
+th, td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    font-size: 22px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+table.centered {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.Button1{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    align-items: center;
+}
+li{
+    font-size: 22px;
+}
+p{
+    font-size: 22px;
+}
+h3{
+    font-size: 22px;
+}
+h2{
+    font-size: 22px;
+}   
+
+img{
+    width: 900px;
+    height: 500px;
+
+
+}
+
+.tablasena {
+    text-align: center;
+}
+.logo-container img {
+    max-width: 200px; /* Ajusta el tamaño según necesidad */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    }
+strong{
+    font-size: 22px;
+}

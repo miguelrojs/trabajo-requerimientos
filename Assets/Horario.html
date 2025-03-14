@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUERIMIENTOS FUNCIONALES </title>
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 600px; text-align: center;">
+        <tr>
+            <td rowspan="4" style="width: 150px;">
+                <img src="/Imagenes/logo-sena-verde-complementario-png-2022.png" alt="Logo SENA" style="width: 100px;">
+            </td>
+            <th style="width: 150px;">Ficha</th>
+            
+            <th style="width: 150px;">Proyecto</th>
+        </tr>
+        <tr>
+            <td> 3063290    </td>
+            <td> ChronoSync </td>
+        </tr>
+        <tr>
+            <th style=>Fecha</th>
+            <th style=>Versión</th>
+            <th style= >Código</th>
+        </tr>
+        <tr>
+            <td> 09/012/20204</td>
+            <td>1.2 </td>
+            <td>3063290     </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+    
+    <div>
+        <table border="1" cellspacing="0" cellpadding="10" style="border-collapse: collapse; width: 600px;">
+        </tr>
+        <tr>
+            <td>
+                <b>Descripción:</b> <p>
+                Esta función de registro de usuario solo la tendrá el rol de administrador,
+                el cual le permitirá registrar aprendices, instructores y administradores,
+                ingresando los datos en los siguientes campos como nombre, el apellido,
+                número de documento que tendrá diferentes opciones desplegables según su tipo de documento
+                (CC, TI, PASAPORTE, CEDULA DE EXTRANJERIA, PERMISO DE PROTECCION TEMPORAL),
+                luego ingresamos nuestro correo electrónico con nuestro respectivo número de teléfono   
+                (solo será válido para ingresar aprendices) en el tipo de usuario al elegir la opción de aprendiz
+                aparecerá desbloqueada la opción con el nombre tipo de ficha y habrá un apartado con la opción
+                de cargar datos con una carpeta o varias de Excel esto facilitará a la hora de ingresar varios usuarios,
+                después tendremos una serie de permisos al momento que estemos creando un Usuario dependiendo el rol
+                se asignaran, habrá un botón de registro que a la hora de darle clic nos envía al módulo de inicio de sesión  
+                </p>
+            </td>
+        </td>
+    </tr>
+    <tr>
+        <td style="text-align: center;">
+            <img src="/Imagenes/logo-sena-verde-complementario-png-2022.png" alt="Yamboro" style="max-width: 100%; height: auto;">
+<tr>
+</td>
+<td style="text-align: center;">
+    <img src="/imagenes/Captura de pantalla 2025-02-17 191344.png" alt="Yamboro" style="max-width: 100%; height: auto;">
+</td>
+</tr>
+        </tr>
+        <tr>
+        </td>
+        <td style="text-align: center;">
+            <img src="/imagenes/Captura de pantalla 2025-02-17 191726.png" alt="Yamboro" style="max-width: 100%; height: auto;">
+        </td>  
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 600px; text-align: center;">
+        <tr>
+            <td rowspan="4" style="width: 150px;">
+                <img src="/Imagenes/logo-sena-verde-complementario-png-2022.png" alt="Logo SENA" style="width: 100px;">
+            </td>
+            <th style="width: 150px;">Ficha</th>
+            
+            <th style="width: 150px;">Proyecto</th>
+        </tr>
+        <tr>
+            <td> 3063290    </td>
+            <td> ChronoSync </td>
+        </tr>
+        <tr>
+            <th style=>Fecha</th>
+            <th style=>Versión</th>
+            <th style= >Código</th>
+        </tr>
+        <tr>
+            <td> 09/012/20204</td>
+            <td>1.2 </td>
+            <td>3063290     </td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <br>
+
+
+    <div>
+        <table> 
+            <tr>
+                <th colspan="2">IDENTIFICADOR: REQ-002 INICIO DE SESIÓN</th>
+            </tr>
+            <tr>
+                <th>PRIORIDAD:</th>
+                <td>Alta ☑ Medio ☐ Bajo ☐</td>
+            </tr>
+            <tr>
+                <th>COMPLEJIDAD:</th>
+                <td>Alta ☐ Medio ☑ Bajo ☐</td>
+            </tr>
+            <tr>
+                <th>ENTRADAS</th>
+                <td>
+                    Debe permitir diligenciar los siguientes datos:
+                    <ul>
+                        <li>Un campo para (correo electrónico)</li>
+                        <li>Un campo para (contraseña)</li>
+                        <li>Un botón de (ingresar)</li>
+                        <li>Y un enlace de (olvido su contraseña)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>SALIDAS</th>
+                <td>
+                    Tendrá un mensaje de error si los datos ingresados son incorrectos, ejemplo (correo o contraseña incorrectos), 
+                    si los datos son ingresados correctamente, se redireccionará al sistema y se mostrará la página principal de la plataforma.
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    Descripción: Contiene dos campos de entrada: uno para el <strong>Correo Electrónico</strong> y otro para la <strong>Contraseña</strong>, 
+                    acompañados por un botón de acción en color verde.
+                    la etiqueta <strong>ingresar</strong>   los usuarios a autenticarse. En la parte inferior del cuadro, se incluye un
+                    enlace con el texto "¿Olvidaste tu contraseña?", que permite a los usuarios recuperar el acceso en caso de olvidos.
+                    
+            <tr>
+                <td style="text-align: center;">
+                        <img src="/imagenes/Captura de pantalla 2025-02-17 194001.png"  alt="Yamboro" style="max-width: 100%; height: auto;">
+                    </td>
+                    </table>
+    </div>
+
+    <tr>
+        <tr>
+            <table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 600px; text-align: center;">
+                <tr>
+                    <td rowspan="4" style="width: 150px;">
+                        <img src="/Imagenes/logo-sena-verde-complementario-png-2022.png" alt="Logo SENA" style="width: 100px;">
+                    </td>
+                    <th style="width: 150px;">Ficha</th>
+                    
+                    <th style="width: 150px;">Proyecto</th>
+                </tr>
+                <tr>
+                    <td> 3063290    </td>
+                    <td> ChronoSync </td>
+                </tr>
+                <tr>
+                    <th style=>Fecha</th>
+                    <th style=>Versión</th>
+                    <th style= >Código</th>
+                </tr>
+                <tr>
+                    <td> 09/012/20204</td>
+                    <td>1.2 </td>
+                    <td>3063290     </td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+
+    </tr>
+            <div>
+                <table>
+                </tr>
+                <tr>
+                    <tr>
+                        <th colspan="2">IDENTIFICADOR: REQ-003 OLVIDOO SU CONTRASEÑA?</th>
+                    </tr>
+                    <tr>    
+                        <th>PRIORIDAD:</th>
+                        <td>Alta ☑ Medio ☐ Bajo ☐</td>
+                    </tr>
+                    <tr>
+                        <th>COMPLEJIDAD:</th>
+                        <td>Alta ☐ Medio ☑ Bajo ☐</td>
+                    </tr>
+                    <tr>
+                        <th>ENTRADAS</th>
+                        <td>
+                            Tendremos las siguientes opicones: ingrese su numero de
+                            telefono y su correo electornico luedo de eso ingresamos a una nueva contraseña
+                            y la confirmamos, despues encontramos un boton de guardar.
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>SALIDAS</th>
+                        <td> 
+                            ·	Establecer una nueva contraseña 
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            Descripción: SE SOLICITA UN INICIO DE SESIÓN O RECUPERACIÓN DE CUENTA DIVIDIDO EN DOS PASOS. EN EL PRIMER PASO, SE SOLICITA AL
+                            USUARIO INGRESAR SU NÚMERO PRINCIPAL REGISTRADO Y SU CORREO ELECTRÓNICO. ESTA PANTALLA INCLUYE DOS CAMPOS DE TEXTO CLARAMENTE
+                            ETIQUETADOS ("NÚMERO" Y "EMAIL") Y UN BOTÓN AZUL OSCURO CON LA ETIQUETA "SIGUIENTE" PARA AVANZAR AL SIGUIENTE PASO. EN EL SEGUNDO PASO,
+                            TITULADO "CÓDIGO DE VERIFICACIÓN", SE INDICA QUE SE HA ENVIADO UN CÓDIGO AL CORREO ELECTRÓNICO REGISTRADO DEL USUARIO. EL USUARIO DEBE 
+                            INTRODUCIR DICHO CÓDIGO EN CUATRO CASILLAS INDEPENDIENTES QUE APARECEN EN LA PANTALLA. TAMBIÉN HAY UN BOTÓN "SIGUIENTE" SIMILAR AL DE LA 
+                            PRIMERA PANTALLA, QUE PERMITE CONTINUAR CON EL PROCESO TRAS INGRESAR EL CÓDIGO CORRECTAMENTE. EL DISEÑO ES MINIMALISTA, CON UN FONDO GRIS 
+                            EN CADA SECCIÓN Y TEXTO CLARO PARA FACILITAR LA COMPRENSIÓN. LUEGO DE NUESTRA VALIDACIÓN MUESTRA UNA PANTALLA DESTINADA A LA CREACIÓN O 
+                            CAMBIO DE CONTRASEÑA. EN LA PARTE SUPERIOR, APARECE EL TÍTULO "NUEVA CONTRASEÑA". SEGUIDAMENTE, SE PRESENTAN DOS CAMPOS DE TEXTO: EL PRIMERO, 
+                            ETIQUETADO COMO "NUEVA CONTRASEÑA", PERMITE AL USUARIO INGRESAR SU NUEVA CLAVE E INCLUYE UN ÍCONO DE OJO PARA ALTERNAR LA VISIBILIDAD 
+                            DE LO ESCRITO; EL SEGUNDO, ETIQUETADO COMO "CONFIRMAR", ESTÁ DISEÑADO PARA QUE EL USUARIO REINGRESE LA CONTRASEÑA Y TAMBIÉN CUENTA CON 
+                            UN ÍCONO SIMILAR PARA MOSTRAR U OCULTAR EL TEXTO. EN LA PARTE INFERIOR, HAY UN BOTÓN VERDE CON LA ETIQUETA "GUARDAR", EL CUAL PERMITE 
+                            CONFIRMAR Y GUARDAR LA NUEVA CONTRASEÑA INGRESADA. EL DISEÑO TIENE UN FONDO GRIS CON BORDES REDONDEADOS, MANTENIENDO UNA DISPOSICIÓN CLARA, 
+                            CENTRADA Y FÁCIL DE USAR.
+                            
+                    <tr>
+                        <td style="text-align: center;">
+                            <img src="/imagenes/Captura de pantalla 2025-02-17 202528.png"  alt="Yamboro" style="max-width: 100%; height: auto;">
+                        </td>
+                        <tr>
+                            <td style="text-align: center;">
+                                <img src="/imagenes/Captura de pantalla 2025-02-17 202743.png"  alt="Yamboro" style="max-width: 100%; height: auto;">
+                            </td>
+                        </tr>
+                </table>
+            </th>
+
+        </tr> 
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse: collapse; width: 600px; text-align: center;">
+    <tr>
+        <td rowspan="4" style="width: 150px;">
+            <img src="/Imagenes/logo-sena-verde-complementario-png-2022.png" alt="Logo SENA" style="width: 100px;">
+        </td>
+        <th style="width: 150px;">Ficha</th>
+        
+        <th style="width: 150px;">Proyecto</th>
+    </tr>
+    <tr>
+        <td> 3063290    </td>
+        <td> ChronoSync </td>
+    </tr>
+    <tr>
+        <th style=>Fecha</th>
+        <th style=>Versión</th>
+        <th style= >Código</th>
+    </tr>
+    <tr>
+        <td> 09/012/20204</td>
+        <td>1.2 </td>
+        <td>3063290     </td>
+    </tr>
+</table>
+
+        
+            </div>
+                        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+        
+            <div>
+            <table>
+        </tr>
+        <tr>
+            <tr>
+                <th colspan="2">IDENTIFICADOR: REQ-004 MENU DE ADMINISTRADOR</th>
+            </tr>
+            <tr>    
+                <th>PRIORIDAD:</th>
+                <td>Alta ☑ Medio ☐ Bajo ☐</td>
+            </tr>
+            <tr>
+                <th>COMPLEJIDAD:</th>
+                <td>Alta ☐ Medio ☑ Bajo ☐</td>
+            </tr>
+            <tr>
+                <th>ENTRADAS</th>
+                <td>
+                    Se podra visualizar en la parte superior izquierda un menu
+                    que contara con las siguientes opciones:
+                    
+                    <ul>
+                        <li>Un campo para (correo electrónico)</li>
+                        <li>Un campo para (contraseña)</li>
+                        <li>Un botón de (ingresar)</li>
+                        <li>Y un enlace de (olvido su contraseña)</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>SALIDAS</th>
+                <td>
+                Cada opcion tendra un boton con el nombre de su respectivo
+                elemento, al presionar aluno de los botones, la pagina
+                lo reenviara al usuario a la siguiente vista segun la opcion
+                elegida.
+                    
+                </td>
+            </tr>
+            <tr>
+                <Th colspan="2">
+                    Descripción:
+                    Se presenta una interfaz diseñada para administradores con herramientas específicas para la gestión de horarios y usuarios. 
+                    La barra lateral izquierda, con fondo blanco, incluye el título "Horario" acompañado de un ícono de reloj en púrpura, seguido 
+                    de cuatro opciones de navegación: "Crear horario", con un ícono de calendario en púrpura; "Editar horario", representado con un 
+                    ícono de lápiz y hoja en negro; "Solicitudes de instructores", acompañado de un ícono de sobre en gris; y "registro de usuarios",
+                    que detalla dos métodos: "Mediante Documento Excel" y "Estándar", con un ícono de hoja en negro. En la parte superior, el encabezado
+                    entral lleva el título "ADMINISTRADORES", junto a una barra de búsqueda con el texto 
+                    "Solicitud cambio de horario instructor". En la esquina superior derecha, se visualiza el nombre del usuario con un avatar circular.
+                    <tr>
+                        <td style="text-align: center;">
+                            <img src="/imagenes/Captura de pantalla 2025-02-25 084810.png" alt="Yamboro" style="max-width: 100%; height: auto;">
+                        </td>
+                    </tr>
+                
+                </Th>
+            </tr>
+            
+
+            <tr>
+                
+            <tr>
+        </table>
+    </th>
+
+</tr> 
+</div>
+
+                    
+                
+</body>
+</html>
